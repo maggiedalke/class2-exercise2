@@ -1,3 +1,5 @@
+// DO NOT USE THIS CODE - EXAMPLE OF BAD PROGRAMMING
+
 const makeCake2 = function () {
   setTimeout(function preheatOven() {
     console.log('Step 1: Preheat oven to 175 degrees C.');
