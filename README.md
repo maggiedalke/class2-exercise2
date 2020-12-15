@@ -52,7 +52,8 @@ setTimeout(function() {
       }, 500);
     }, 500);
   }, 500);
-}, 500); ```
+}, 500); 
+```
 
 ## Part 3 - Modify the pyramid
 
