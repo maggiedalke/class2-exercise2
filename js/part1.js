@@ -1,33 +1,33 @@
 const makeCake2 = function () {
-  setTimeout(() => {
+  setTimeout(function preheatOven() {
     console.log('Step 1: Preheat oven to 175 degrees C.');
-    setTimeout(() => {
+    setTimeout(function greaseAndFlourPan() {
       console.log('Step 2: Grease and flour a 9x9 inch pan.');
-      setTimeout(() => {
+      setTimeout(function creamSugarAndButter() {
         console.log(
           'Step 3: In a medium bowl, cream together the sugar and butter.'
         );
-        setTimeout(() => {
+        setTimeout(function beatEggs() {
           console.log('Step 4: Beat in the eggs, one at a time.');
-          setTimeout(() => {
+          setTimeout(function stirVanilla() {
             console.log('Step 5: Stir in the vanilla.');
-            setTimeout(() => {
+            setTimeout(function combineFlourAndPowder() {
               console.log('Step 6: Combine flour and baking powder');
-              setTimeout(() => {
+              setTimeout(function addDryIngredients() {
                 console.log(
                   'Step 7: Add dry ingredients to the creamed mixture and mix well.'
                 );
-                setTimeout(() => {
+                setTimeout(function stirMilk() {
                   console.log(
                     'Step 8: Stir in the milk until batter is smooth.'
                   );
-                  setTimeout(() => {
+                  setTimeout(function batterInPan() {
                     console.log(
                       'Step 9: Pour or spoon batter into the prepared pan.'
                     );
-                    setTimeout(() => {
+                    setTimeout(function bake() {
                       console.log('Step 10: Bake for 30 to 40 minutes.');
-                      setTimeout(() => {
+                      setTimeout(function cakeDone() {
                         console.log(
                           'Step 11: Cake is done when it springs back to the touch.'
                         );
