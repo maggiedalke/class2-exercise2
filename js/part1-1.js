@@ -1,4 +1,4 @@
-function preheatOver() {
+function preheatOven() {
   console.log('Step 1: Preheat oven to 175 degrees C.');
   setTimeout(greaseAndFlourPan, 20);
 }
@@ -53,3 +53,9 @@ function bake() {
 function cakeDone() {
   console.log('Step 11: Cake is done when it springs back to the touch.');
 }
+
+function startCake() {
+  preheatOven();
+}
+
+startCake();
