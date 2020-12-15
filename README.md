@@ -1,5 +1,4 @@
 ## Part 1 - Callback Cake
-        
 
 ```const makeCake = function() {
   setTimeout(() => {console.log('Step 1: Preheat oven to 175 degrees C.');}, 20);
@@ -15,6 +14,7 @@
   setTimeout(() => {console.log('Step 11: Cake is done when it springs back to the touch.');}, 1);
 }
 ```
+
 If you run the makeCake() function above, your cake will not turn out. Why?
 
 Using nested callbacks, fix the problem.
@@ -23,7 +23,7 @@ Using nested callbacks, fix the problem.
 
 ```
 setTimeout(function() {
-  let counter = 0;  
+  let counter = 0;
   console.log(counter++);
   setTimeout(function() {
     console.log(counter++);
@@ -52,16 +52,16 @@ setTimeout(function() {
       }, 500);
     }, 500);
   }, 500);
-}, 500); 
+}, 500);
 ```
 
 ## Part 3 - Modify the pyramid
 
-Using the previously provided *pyramid of doom*, insert some code that will print out "odd" in addition the the number, but only when the counter is odd.
+Using the previously provided _pyramid of doom_, insert some code that will print out "odd" in addition the number, but only when the counter is odd.
 
 ## Part 4 - Fix the pyramid
 
-Using the previously provided *pyramid of doom*, convert each nested callback into a stand-alone function. I already got you started.
+Using the previously provided _pyramid of doom_, convert each nested callback into a stand-alone function. I already got you started.
 
 ```
 setTimeout(step1, 500);
@@ -75,10 +75,11 @@ function step1() {
 ## Part 5 - Break it up
 
 1. Using your code from a previous assignment, your Budget Calculator from SD120 is a good choice, break up your code into at least 2 seperate JavaScript files.
-2. Use the examples of loading a script using JS provided to load your script dynamically from JS using callbacks in a *pyramid of doom* fashion.
+2. Use the examples of loading a script using JS provided to load your script dynamically from JS using callbacks in a _pyramid of doom_ fashion.
 3. Improve your solution using stand alone functions.
 
 Here is the code to load a file:
+
 ```
 function loadScript(src, cb) {
   // creates a <script> tag and append it to the page
@@ -89,5 +90,6 @@ function loadScript(src, cb) {
   script.addEventListener('load', cb);
 }
 ```
+
 **TIP**
 Remember, as long as the files are loaded in the correct order, everything should continue to work.
