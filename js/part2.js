@@ -1,24 +1,42 @@
 setTimeout(function () {
   let counter = 0;
-  console.log(counter++);
+  counter % 2 === 1 ? console.log(counter++ + ' odd') : console.log(counter++);
   setTimeout(function () {
-    console.log(counter++);
+    counter % 2 === 1
+      ? console.log(counter++ + ' odd')
+      : console.log(counter++);
     setTimeout(function () {
-      console.log(counter++);
+      counter % 2 === 1
+        ? console.log(counter++ + ' odd')
+        : console.log(counter++);
       setTimeout(function () {
-        console.log(counter++);
+        counter % 2 === 1
+          ? console.log(counter++ + ' odd')
+          : console.log(counter++);
         setTimeout(function () {
-          console.log(counter++);
+          counter % 2 === 1
+            ? console.log(counter++ + ' odd')
+            : console.log(counter++);
           setTimeout(function () {
-            console.log(counter++);
+            counter % 2 === 1
+              ? console.log(counter++ + ' odd')
+              : console.log(counter++);
             setTimeout(function () {
-              console.log(counter++);
+              counter % 2 === 1
+                ? console.log(counter++ + ' odd')
+                : console.log(counter++);
               setTimeout(function () {
-                console.log(counter++);
+                counter % 2 === 1
+                  ? console.log(counter++ + ' odd')
+                  : console.log(counter++);
                 setTimeout(function () {
-                  console.log(counter++);
+                  counter % 2 === 1
+                    ? console.log(counter++ + ' odd')
+                    : console.log(counter++);
                   setTimeout(function () {
-                    console.log(counter++);
+                    counter % 2 === 1
+                      ? console.log(counter++ + ' odd')
+                      : console.log(counter++);
                   }, 500);
                 }, 500);
               }, 500);
